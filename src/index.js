@@ -3,11 +3,6 @@ Array.prototype.has = function (item) {
     if (i === item) return true
   }
   return false
-  // let hasItem = false
-  // this.forEach(i => {
-  //   if (i === item) hasItem = true
-  // })
-  // return hasItem
 }
 
 Array.prototype.search = function (key, value) {
@@ -35,4 +30,14 @@ Array.prototype.diff = function (arr) {
 
 Array.prototype.unique = function () {
   return [...new Set(this)]
+}
+
+Array.prototype.reverse = function () {
+  let arr = []
+  let len = this.length - 1
+  for (let i = len; i >= 0; i--) {
+    arr.push(this[i])
+    console.log('控制台打印:', this[i])
+  }
+  return arr
 }
