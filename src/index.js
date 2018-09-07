@@ -37,7 +37,8 @@ Array.prototype.reverse = function () {
   let len = this.length - 1
   for (let i = len; i >= 0; i--) {
     arr.push(this[i])
-    console.log('控制台打印:', this[i])
   }
   return arr
 }
+
+// include, indexOf, some, map, forEach, find, filter,reduce, findIndex
