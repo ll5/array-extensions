@@ -41,4 +41,5 @@ Array.prototype.reverse = function () {
   return arr
 }
 
-// include, indexOf, some, map, forEach, find, filter,reduce, findIndex
+// include, indexOf, some, map, forEach, find, filter,reduce, findIndex, max, min, swap,flaten, removeUnvaliable
+// https://blog.csdn.net/zhu7478848/article/details/53190689
