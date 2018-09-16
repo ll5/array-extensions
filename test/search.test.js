@@ -1,4 +1,5 @@
-const array = require('../src/index')
+// const _ = require('../src/index')
+import _ from '../src/index'
 
 let arr = [{a: 1}, {a: 2}, {a: 3}, {a: 4}]
 

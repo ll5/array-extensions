@@ -12,7 +12,9 @@
   "author": "noahlam <284516433@qq.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ./src",
+    "build": "npm run test && npm run lint && rollup -c rollup/rollup.js"
   },
   "dependencies": {},
   "devDependencies": {
