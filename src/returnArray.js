@@ -33,3 +33,12 @@ export function _reverse() {
 	}
 	return arr
 }
+
+export function _map(fun) {
+  let len = this.length
+  let res = []
+  for(let i = 0; i < len; i++) {
+    res.push(fun(i))
+  }
+  return res
+}
